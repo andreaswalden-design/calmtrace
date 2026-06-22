@@ -1,0 +1,66 @@
+# macOS and editor metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and local runtime state
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Node and frontend tooling
+node_modules/
+.npm/
+.pnpm-store/
+.next/
+.nuxt/
+out/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local-only or confidential working material
+local_data/
+pilot_data/
+private/
+confidential/
+
+# CalmTrace raw intake defaults. Commit raw sources only after an explicit privacy review.
+calmtrace-vault/00_inbox/
+calmtrace-vault/01_sources/
+
+# Generated exports that can be recreated
+exports/
+generated/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
