@@ -32,19 +32,18 @@ Raw source material
 - Keep reusable product code and templates generic.
 - Keep confidential or pilot-specific source data out of version control unless the repository is explicitly configured for it.
 
-## Recommended Vault Layout
+## Current Folder Layout
 
 ```text
-calmtrace-vault/
-  00_inbox/
-  01_sources/
-  02_evidence_items/
-  03_artifacts/
-  04_traceability/
-  05_reports/
-  06_templates/
-  07_decisions/
-  08_dashboards/
+00_Inbox/
+01_Sources/
+02_Evidence_Items/
+03_Artifacts/
+04_Traceability/
+05_Reports/
+06_Templates/
+07_Decisions/
+08_Dashboards/
 ```
 
 See `AGENTS.md` for the full project instructions, artifact metadata expectations, and traceability rules.

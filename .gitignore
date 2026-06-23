@@ -54,8 +54,19 @@ private/
 confidential/
 
 # CalmTrace raw intake defaults. Commit raw sources only after an explicit privacy review.
-calmtrace-vault/00_inbox/
-calmtrace-vault/01_sources/
+calmtrace-vault/00_inbox/**
+calmtrace-vault/01_sources/**
+00_Inbox/**
+01_Sources/**
+!calmtrace-vault/00_inbox/**/
+!calmtrace-vault/01_sources/**/
+!00_Inbox/**/
+!01_Sources/**/
+!calmtrace-vault/00_inbox/**/.gitkeep
+!calmtrace-vault/01_sources/**/.gitkeep
+!00_Inbox/**/.gitkeep
+!01_Sources/**/.gitkeep
+!01_Sources/**/SRC-*.md
 
 # Generated exports that can be recreated
 exports/
